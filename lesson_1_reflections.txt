@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It showed me that some lines were not identical,
+so the focus was narrowed only to those lines where the changes were made.
+Actually, it was just fine for a little file.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If I have a history of all changes made to my project, I can easier find
+places when some bugs were created and revert the project to the correct state.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+
+There aren't too much versions, so it's easier to navigate and get some bugs. On the other hand, if we forgot to save
+a project that currently works, it could be harder to backup it to the correct state later.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I think that Git allow saving multiple files, because typically projects contain more than just one file and if we want to label versions,
+the most convenient way is to allow users saving the whole version of project at once, not the single files.
+
+ 
+How can you use the commands git log and git diff to view the history of files?
+
+I can check general description of a version when I type git log and if I want to get the specific information about codelines that were added or deleted,
+I can run git diff.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+The bad changes are always reversible and if we use such version control system as Git, we can easily find what has been changed incorrectly.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+It would be useful for me to develop some programming projects comfortably, without a risk that if I make a mistake,
+it's hard to revert the project to the correct state. In fact, I have such experiences, but that was when I hadn't used Git. ;)
