@@ -1,3 +1,0 @@
-What happens when you initialize a repository? Why do you need to do it?
-
-When I initialize a repository git starts tracking its contents and whenever I submit a commit some newer version of a project/directory is being added to a history of changes. Therefore, I can quickly revert state of project to other specified state in a past.
