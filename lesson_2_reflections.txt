@@ -6,3 +6,8 @@ When I initialize a repository git starts tracking its contents and whenever I s
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is a place where we put some parts of our change (some files, etc.) in order not to make a single huge commit. It can be used in cases when there are multiple changes in many files.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+If you start coding again after longer break you may not be aware that there have been significant changes you made last time. To avoid it, you may want to add to commit only this file that was modified just before.
