@@ -16,3 +16,13 @@ If you start coding again after longer break you may not be aware that there hav
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches might be useful when you decide to take some challenges, when you want to try something that is experimental and don't want to disturb therefore the normal master branch. It might be useful when the application uses different code for different devices or for different language sets.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams clearly show at which point the new branch was created and give brief overview of the whole tree of application.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is one common branch with all changes made in both branches. We represent it this way because in fact it is merging two so far independent branches into one new branch.
