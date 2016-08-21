@@ -26,3 +26,8 @@ Diagrams clearly show at which point the new branch was created and give brief o
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result is one common branch with all changes made in both branches. We represent it this way because in fact it is merging two so far independent branches into one new branch.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It is much more convenient because Git automatically adds some labels to show different pieces of code in both branches. I suppose that doing merges manually requires much more effort, especially when there is no single conflict.
